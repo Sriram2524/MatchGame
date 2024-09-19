@@ -1,0 +1,23 @@
+.thumbnail-list {
+  border-radius: 5px;
+  margin: 10px;
+}
+.list-img-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.imgs {
+  width: 190px;
+  height: 180px;
+}
+@media (max-width: 767px) {
+  .imgs {
+    width: 100px;
+    height: 100px;
+  }
+  .thumbnail-list {
+    border-radius: 5px;
+    margin: 5px;
+  }
+}
